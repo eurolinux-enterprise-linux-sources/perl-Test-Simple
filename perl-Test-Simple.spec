@@ -1,7 +1,7 @@
 Name:           perl-Test-Simple
 Summary:        Basic utilities for writing tests
 Version:        0.98
-Release:        242%{?dist}
+Release:        243%{?dist}
 License:        GPL+ or Artistic
 Group:          Development/Libraries
 URL:            http://search.cpan.org/dist/Test-Simple
@@ -74,6 +74,9 @@ make test
 %{_mandir}/man3/Test::Tutorial.3pm*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.98-243
+- Mass rebuild 2013-12-27
+
 * Wed Nov 21 2012 Jitka Plesnikova <jplesnik@redhat.com> - 0.98-242
 - Update dependencies and comments
 
